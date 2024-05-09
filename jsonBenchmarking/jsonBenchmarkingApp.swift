@@ -11,7 +11,7 @@ import SwiftUI
 struct jsonBenchmarkingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BenchmarkView()
         }
     }
 }

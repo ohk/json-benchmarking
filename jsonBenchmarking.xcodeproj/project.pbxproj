@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C62C589B2BEC7AB200698C9E /* JSONLibraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C589A2BEC7AB200698C9E /* JSONLibraries.swift */; };
+		C62C589D2BEC7AE400698C9E /* MockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C589C2BEC7AE400698C9E /* MockModel.swift */; };
+		C62C589F2BEC7B3300698C9E /* TimeConsumingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C589E2BEC7B3300698C9E /* TimeConsumingResult.swift */; };
+		C62C58A22BEC7BE700698C9E /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = C62C58A12BEC7BE700698C9E /* ObjectMapper */; };
+		C62C58A52BEC82F900698C9E /* SwiftyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C58A42BEC82F900698C9E /* SwiftyCodable.swift */; };
+		C62C58A72BEC860A00698C9E /* AverageResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C58A62BEC860A00698C9E /* AverageResult.swift */; };
 		C6B6E61C2BDDE498003A93AA /* jsonBenchmarkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6E61B2BDDE498003A93AA /* jsonBenchmarkingApp.swift */; };
-		C6B6E61E2BDDE498003A93AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6E61D2BDDE498003A93AA /* ContentView.swift */; };
+		C6B6E61E2BDDE498003A93AA /* BenchmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6E61D2BDDE498003A93AA /* BenchmarkView.swift */; };
 		C6B6E6202BDDE4A4003A93AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E61F2BDDE4A4003A93AA /* Assets.xcassets */; };
 		C6B6E6232BDDE4A4003A93AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E6222BDDE4A4003A93AA /* Preview Assets.xcassets */; };
 		C6B6E62D2BDDE4A4003A93AA /* jsonBenchmarkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6E62C2BDDE4A4003A93AA /* jsonBenchmarkingTests.swift */; };
 		C6B6E6372BDDE4A4003A93AA /* jsonBenchmarkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6E6362BDDE4A4003A93AA /* jsonBenchmarkingUITests.swift */; };
 		C6B6E6392BDDE4A4003A93AA /* jsonBenchmarkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6E6382BDDE4A4003A93AA /* jsonBenchmarkingUITestsLaunchTests.swift */; };
+		C6B6E6522BDDE895003A93AA /* 64KB.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E64C2BDDE895003A93AA /* 64KB.json */; };
+		C6B6E6532BDDE895003A93AA /* 5MB.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E64D2BDDE895003A93AA /* 5MB.json */; };
+		C6B6E6542BDDE895003A93AA /* 128KB.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E64E2BDDE895003A93AA /* 128KB.json */; };
+		C6B6E6552BDDE895003A93AA /* 512KB.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E64F2BDDE895003A93AA /* 512KB.json */; };
+		C6B6E6562BDDE895003A93AA /* 256KB.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E6502BDDE895003A93AA /* 256KB.json */; };
+		C6B6E6572BDDE895003A93AA /* 1MB.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B6E6512BDDE895003A93AA /* 1MB.json */; };
+		C6B6E65A2BDDE927003A93AA /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C6B6E6592BDDE927003A93AA /* SwiftyJSON */; };
+		C6B6E65C2BDDEB09003A93AA /* BenchmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B6E65B2BDDEB09003A93AA /* BenchmarkViewModel.swift */; };
+		C6B6E65F2BDDF46D003A93AA /* IkigaJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C6B6E65E2BDDF46D003A93AA /* IkigaJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C62C589A2BEC7AB200698C9E /* JSONLibraries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLibraries.swift; sourceTree = "<group>"; };
+		C62C589C2BEC7AE400698C9E /* MockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockModel.swift; sourceTree = "<group>"; };
+		C62C589E2BEC7B3300698C9E /* TimeConsumingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConsumingResult.swift; sourceTree = "<group>"; };
+		C62C58A42BEC82F900698C9E /* SwiftyCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCodable.swift; sourceTree = "<group>"; };
+		C62C58A62BEC860A00698C9E /* AverageResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageResult.swift; sourceTree = "<group>"; };
 		C6B6E6182BDDE498003A93AA /* jsonBenchmarking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsonBenchmarking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B6E61B2BDDE498003A93AA /* jsonBenchmarkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonBenchmarkingApp.swift; sourceTree = "<group>"; };
-		C6B6E61D2BDDE498003A93AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6B6E61D2BDDE498003A93AA /* BenchmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkView.swift; sourceTree = "<group>"; };
 		C6B6E61F2BDDE4A4003A93AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6B6E6222BDDE4A4003A93AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6B6E6282BDDE4A4003A93AA /* jsonBenchmarkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jsonBenchmarkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +64,13 @@
 		C6B6E6322BDDE4A4003A93AA /* jsonBenchmarkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jsonBenchmarkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B6E6362BDDE4A4003A93AA /* jsonBenchmarkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonBenchmarkingUITests.swift; sourceTree = "<group>"; };
 		C6B6E6382BDDE4A4003A93AA /* jsonBenchmarkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonBenchmarkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6B6E64C2BDDE895003A93AA /* 64KB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 64KB.json; sourceTree = "<group>"; };
+		C6B6E64D2BDDE895003A93AA /* 5MB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5MB.json; sourceTree = "<group>"; };
+		C6B6E64E2BDDE895003A93AA /* 128KB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 128KB.json; sourceTree = "<group>"; };
+		C6B6E64F2BDDE895003A93AA /* 512KB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 512KB.json; sourceTree = "<group>"; };
+		C6B6E6502BDDE895003A93AA /* 256KB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 256KB.json; sourceTree = "<group>"; };
+		C6B6E6512BDDE895003A93AA /* 1MB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1MB.json; sourceTree = "<group>"; };
+		C6B6E65B2BDDEB09003A93AA /* BenchmarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62C58A22BEC7BE700698C9E /* ObjectMapper in Frameworks */,
+				C6B6E65F2BDDF46D003A93AA /* IkigaJSON in Frameworks */,
+				C6B6E65A2BDDE927003A93AA /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +101,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C62C58992BEC7A9400698C9E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C62C589A2BEC7AB200698C9E /* JSONLibraries.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C62C58A32BEC82EB00698C9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C62C58A42BEC82F900698C9E /* SwiftyCodable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C6B6E60F2BDDE498003A93AA = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +140,14 @@
 		C6B6E61A2BDDE498003A93AA /* jsonBenchmarking */ = {
 			isa = PBXGroup;
 			children = (
+				C6B6E61D2BDDE498003A93AA /* BenchmarkView.swift */,
+				C6B6E65B2BDDEB09003A93AA /* BenchmarkViewModel.swift */,
 				C6B6E61B2BDDE498003A93AA /* jsonBenchmarkingApp.swift */,
-				C6B6E61D2BDDE498003A93AA /* ContentView.swift */,
 				C6B6E61F2BDDE4A4003A93AA /* Assets.xcassets */,
+				C62C58992BEC7A9400698C9E /* Enums */,
+				C62C58A32BEC82EB00698C9E /* Extensions */,
+				C6B6E64B2BDDE847003A93AA /* Files */,
+				C6B6E6482BDDE6E4003A93AA /* Models */,
 				C6B6E6212BDDE4A4003A93AA /* Preview Content */,
 			);
 			path = jsonBenchmarking;
@@ -127,6 +178,29 @@
 			path = jsonBenchmarkingUITests;
 			sourceTree = "<group>";
 		};
+		C6B6E6482BDDE6E4003A93AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C62C589C2BEC7AE400698C9E /* MockModel.swift */,
+				C62C589E2BEC7B3300698C9E /* TimeConsumingResult.swift */,
+				C62C58A62BEC860A00698C9E /* AverageResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C6B6E64B2BDDE847003A93AA /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6B6E6512BDDE895003A93AA /* 1MB.json */,
+				C6B6E64D2BDDE895003A93AA /* 5MB.json */,
+				C6B6E64C2BDDE895003A93AA /* 64KB.json */,
+				C6B6E64E2BDDE895003A93AA /* 128KB.json */,
+				C6B6E6502BDDE895003A93AA /* 256KB.json */,
+				C6B6E64F2BDDE895003A93AA /* 512KB.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +217,11 @@
 			dependencies = (
 			);
 			name = jsonBenchmarking;
+			packageProductDependencies = (
+				C6B6E6592BDDE927003A93AA /* SwiftyJSON */,
+				C6B6E65E2BDDF46D003A93AA /* IkigaJSON */,
+				C62C58A12BEC7BE700698C9E /* ObjectMapper */,
+			);
 			productName = jsonBenchmarking;
 			productReference = C6B6E6182BDDE498003A93AA /* jsonBenchmarking.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +294,11 @@
 				Base,
 			);
 			mainGroup = C6B6E60F2BDDE498003A93AA;
+			packageReferences = (
+				C6B6E6582BDDE927003A93AA /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				C6B6E65D2BDDF46D003A93AA /* XCRemoteSwiftPackageReference "IkigaJSON" */,
+				C62C58A02BEC7BE700698C9E /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = C6B6E6192BDDE498003A93AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +315,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B6E6572BDDE895003A93AA /* 1MB.json in Resources */,
+				C6B6E6562BDDE895003A93AA /* 256KB.json in Resources */,
+				C6B6E6532BDDE895003A93AA /* 5MB.json in Resources */,
 				C6B6E6232BDDE4A4003A93AA /* Preview Assets.xcassets in Resources */,
 				C6B6E6202BDDE4A4003A93AA /* Assets.xcassets in Resources */,
+				C6B6E6552BDDE895003A93AA /* 512KB.json in Resources */,
+				C6B6E6522BDDE895003A93AA /* 64KB.json in Resources */,
+				C6B6E6542BDDE895003A93AA /* 128KB.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B6E61E2BDDE498003A93AA /* ContentView.swift in Sources */,
+				C6B6E61E2BDDE498003A93AA /* BenchmarkView.swift in Sources */,
+				C62C589F2BEC7B3300698C9E /* TimeConsumingResult.swift in Sources */,
+				C62C589D2BEC7AE400698C9E /* MockModel.swift in Sources */,
+				C62C589B2BEC7AB200698C9E /* JSONLibraries.swift in Sources */,
 				C6B6E61C2BDDE498003A93AA /* jsonBenchmarkingApp.swift in Sources */,
+				C62C58A52BEC82F900698C9E /* SwiftyCodable.swift in Sources */,
+				C6B6E65C2BDDEB09003A93AA /* BenchmarkViewModel.swift in Sources */,
+				C62C58A72BEC860A00698C9E /* AverageResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +684,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C62C58A02BEC7BE700698C9E /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+		C6B6E6582BDDE927003A93AA /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		C6B6E65D2BDDF46D003A93AA /* XCRemoteSwiftPackageReference "IkigaJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orlandos-nl/IkigaJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C62C58A12BEC7BE700698C9E /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C62C58A02BEC7BE700698C9E /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+		C6B6E6592BDDE927003A93AA /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B6E6582BDDE927003A93AA /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		C6B6E65E2BDDF46D003A93AA /* IkigaJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B6E65D2BDDF46D003A93AA /* XCRemoteSwiftPackageReference "IkigaJSON" */;
+			productName = IkigaJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6B6E6102BDDE498003A93AA /* Project object */;
 }
